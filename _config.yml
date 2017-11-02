@@ -1,28 +1,27 @@
-title:            Jordi Pont-Tuset's site
+title:            Benedikt Bünz's site
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //jponttuset.github.io
+url:              //bbuenz.github.io
 #http://localhost:5000
 #https://jponttuset.github.io
-disqus_shortname: jponttuset
+disqus_shortname: benediktbnz
 
 # Owner/author information
 owner:
-  name:           Jordi Pont-Tuset
-  avatar:         jordi.png
-  bio:            I'm from a small town near Girona, Catalunya. Currently in Zürich, Switzerland. Passionate about computer vision, technology, running, and mountains.
-  email:          jponttuset@gmail.com
+  name:           Benedikt Bünz
+  avatar:         benedikt.png
+  bio:            I am researcher interested in applied cryptography especially as it relates to cryptocurrencies. My work focusses on enhancing the privacy, usability and security of protocols that are somehow related to blockchains. Currently I am pursuing my PhD in computer science at Stanford and am advised by <a href="https://crypto.stanford.edu/~dabo/">Dan Boneh</a>. I am a semi-professional runner and enjoy travelling especially in inconvenient vehicles.
+  email:          buenz@cs.stanford.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: jponttuset
-  linkedin: jponttuset
+  linkedin: buenz
   google_scholar: VCBBx24AAAAJ
-  google_plus: 113718226018314522413
-  github: jponttuset
+  github: bbuenz
+  strava: 12017759
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-52736040-1
+#google_analytics: UA-52736040-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+#bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -34,7 +33,8 @@ links:
   - title: Code
     url: /code/
   - title: Blog
-    url: /blog/
+    external: true
+    url: "https://www.crazyguyonabike.com/doc/?o=tS&doc_id=18076&v=VC"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Zurich
