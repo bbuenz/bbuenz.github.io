@@ -14,7 +14,7 @@ owner:
   email:          buenz@cs.stanford.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   linkedin: buenz
-  google_scholar: VCBBx24AAAAJ
+  google_scholar: Hj82r7MAAAAJ
   github: bbuenz
   strava: 12017759
 # Analytics and webmaster tools stuff goes here
@@ -27,9 +27,9 @@ google_verify:
 # For external links add external: true
 links:
   - title: Curriculum
-#    url: /cv/
+    url: /cv/
   - title: Publications
-#    url: /publications/
+#  url: /publications/
   - title: Code
 #    url: /code/
   - title: Blog

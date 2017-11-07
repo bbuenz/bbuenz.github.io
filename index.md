@@ -11,7 +11,7 @@ I'm a second-year PhD student at Stanford University in [Dan Boneh](https://cryp
 
 <br />
 <h2>Runner</h2>
-I like to run in circles. Somewhere between 2 and 12 times but I am really best when it's 3.75 times. I currently mostly train with [Strava TC](http://www.stravatrackclub.com/) under Dena Evans. I am also associated with and am racing for the [Stanford Running Club](https://running.stanford.edu), [Hamburg Running](http://hamburg-running.de/) and [LC Regensdorf](http://www.lcr.ch). You can stalk my runs on [Strava](https://www.strava.com/athletes/12017759). My personal records are 3:51.5 for 1500m and 14:55 for 5km and 31:40 for 10km. My short term goal is to qualify for the German national championships and long term I would like to run under 4 minutes for the mile. But for the most part I run because I enjoy it and I enjoy pushing myself to my limit.
+I like to run in circles. Somewhere between 2 and 12.5 times but I am really best when it's 3.75 times. I currently mostly train with [Strava TC](http://www.stravatrackclub.com/) under Dena Evans. I am also associated with and am racing for the [Stanford Running Club](https://running.stanford.edu), [Hamburg Running](http://hamburg-running.de/) and [LC Regensdorf](http://www.lcr.ch). You can stalk my runs on [Strava](https://www.strava.com/athletes/12017759). My personal records are 3:51.5 for 1500m and 14:55 for 5km and 31:40 for 10km. My short term goal is to qualify for the German national championships and long term I would like to run under 4 minutes for the mile. But for the most part I run because I enjoy it and I enjoy pushing myself to my limit.
 
 <img src="{{ site.url }}/images/runrocknroll.jpg"
      alt="A running picture">
