@@ -7,7 +7,7 @@ image:
   feature: road.jpg
 ---
 <h2>Researcher</h2>
-I'm a second-year PhD student at Stanford University in [Dan Boneh](https://crypto.stanford.edu/~dabo)'s [Applied Cryptography Group](https://crypto.stanford.edu). During the summer of 2017 I was an intern at [Visa Research](https://usa.visa.com/about-visa/visa-research.html) where I was supervised by [Shashank Agrawal](https://shashank-agrawal.com) and [Mahdi Zamani](http://mahdiz.com/). Before my PhD I received my M.S. in Computer Science from Stanford and my B.S. in Computer Science from the [University of Zurich](http://www.ifi.uzh.ch/en.html). My undergrad thesis on combinatorial auctions was advised by [Prof. Sven Seuken](http://www.ifi.uzh.ch/en/ce/people/seuken/.html) and [Prof. Ben Lubin](http://people.bu.edu/blubin/) (Boston University).
+I'm a second-year PhD student at Stanford University in [Dan Boneh](https://crypto.stanford.edu/~dabo)'s [Applied Cryptography Group](https://crypto.stanford.edu). In my research I generally focus on the crypto(graphy) of crypto(currencies). During the summer of 2017 I was an intern at [Visa Research](https://usa.visa.com/about-visa/visa-research.html) where I was supervised by [Shashank Agrawal](https://shashank-agrawal.com) and [Mahdi Zamani](http://mahdiz.com/). Before my PhD I received my M.S. in Computer Science from Stanford and my B.S. in Computer Science from the [University of Zurich](http://www.ifi.uzh.ch/en.html). My undergrad thesis on combinatorial auctions was advised by [Prof. Sven Seuken](http://www.ifi.uzh.ch/en/ce/people/seuken/.html) and [Prof. Ben Lubin](http://people.bu.edu/blubin/) (Boston University).
 
 <br />
 <h2>Runner</h2>
