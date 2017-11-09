@@ -32,19 +32,19 @@ links:
     url: /publications/
   - title: Talks
     url: /talks/
-  - title: Blog
-    external: true
-    url: "https://www.crazyguyonabike.com/doc/?o=tS&doc_id=18076&v=VC"
+    #  - title: Blog
+    #external: true
+    #url: "https://www.crazyguyonabike.com/doc/?o=tS&doc_id=18076&v=VC"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Zurich
+timezone:    America/Los_Angeles
 future:      true
 #pygments:    true
 highlighter: rouge
 markdown:    kramdown
 kramdown:
   extensions: ["strikethrough"]
-  
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
