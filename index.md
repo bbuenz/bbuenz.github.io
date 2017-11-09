@@ -23,4 +23,3 @@ I have been extremley blessed with the opportunity to travel a lot. After gradua
 [crazyguyonabike.com](https://www.crazyguyonabike.com/doc/?o=tS&doc_id=18076&v=VC). Thanks to this bike trip and the subsequent roadtrip home I have already visited 31 states. I am planning to get all 50 by the end of my PhD so if you know a good excuse to go to Nebraska let me know. Recently I have become an expert on whether purchasing 30 year old RVs makes sense. The answer is no.
  <img src="{{ site.url }}/images/cyclingutah.jpg"
       alt="A biking picture">
-
