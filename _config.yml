@@ -1,7 +1,7 @@
 title:            Benedikt Bünz's site
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              bbuenz.github.io
+url:              //bbuenz.github.io
 #http://localhost:5000
 #https://jponttuset.github.io
 disqus_shortname: benediktbnz
