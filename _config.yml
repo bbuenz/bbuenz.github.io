@@ -10,7 +10,7 @@ disqus_shortname: benediktbnz
 owner:
   name:           Benedikt Bünz
   avatar:         benedikt.png
-  bio:            I am researcher interested in applied cryptography especially as it relates to cryptocurrencies. My work focusses on enhancing the privacy, usability and security of protocols that are somehow related to blockchains. Currently I am pursuing my PhD in computer science at Stanford and am advised by <a href="https://crypto.stanford.edu/~dabo/">Dan Boneh</a>. I am a semi-professional runner and enjoy travelling especially in inconvenient vehicles.
+  bio:            I am researcher interested in applied cryptography especially as it relates to cryptocurrencies. My work focuses on enhancing the privacy, usability and security of protocols that are somehow related to blockchains. Currently I am pursuing my PhD in computer science at Stanford and am advised by <a href="https://crypto.stanford.edu/~dabo/">Dan Boneh</a>. I am a semi professional runner and enjoy travelling especially in inconvenient vehicles.
   email:          buenz@cs.stanford.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   linkedin: buenz
