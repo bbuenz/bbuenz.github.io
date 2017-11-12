@@ -8,11 +8,11 @@ comments: false
 ---
 
 <h2>Cryptography and Cryptocurrencies</h2>
-<h3>Bulletproofs: Efficient Range Proofs for
-Confidential Transactions (Unpublished)</h3>
+<h3>Bulletproofs: Short Proofs for
+Confidential Transactions and More (Unpublished)</h3>
 Authors: B. Bünz, [J. Bootle](http://www0.cs.ucl.ac.uk/staff/J.Bootle/), [D. Boneh](https://crypto.stanford.edu/~dabo), [Andrew Poelstra](https://www.wpsoftware.net/andrew/), [Pieter Wuille](https://blockstream.com/team/pieter-wuille/) and [Greg Maxwell](https://blockstream.com/team/greg-maxwell/)
 
-[Paper](https://web.stanford.edu/~buenz/pubs/bulletproofs.pdf)
+[Paper](https://eprint.iacr.org/2017/1066.pdf)
 
 [Talk at Scaling Bitcoin 2017 (last 5 minutes of the talk)](https://youtu.be/LDF8bOEqXt4?t=10570)
 
