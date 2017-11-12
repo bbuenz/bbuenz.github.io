@@ -10,13 +10,13 @@ comments: false
 **Umlaute explained aka how to pronounce my name**
 
 <br>
-Bünz which is a [small river in Switzerland](https://de.wikipedia.org/wiki/B%C3%BCnz) according to my dad means small fat farmer. A name with so much meaning deserves to be pronounced correctly. Unfortunately, the so called umlaut "ü" is a sound that doesn't really exist in English and despite its looks it definitley doesn't sound like an u. The international spelling of ü is ue, hence my email address and domain name Buenz. But an ü also doesn't sound like ue. It probably most sound like "ee" but with a rounder mouth. Just click on this [link](http://www.thegermanprofessor.com/how-to-pronounce-o-and-u/) if you actually want to learn how to pronounce it. This paragraph was brought to you by the very German need to correct people ([great Economist article on it](https://www.1843magazine.com/ideas/the-daily/being-german-is-no-laughing-matter)).
+Bünz which is a [small river in Switzerland](https://de.wikipedia.org/wiki/B%C3%BCnz) according to my dad means small fat farmer. A name with so much meaning deserves to be pronounced correctly. Unfortunately, the so called umlaut "ü" is a sound that doesn't really exist in English and despite its looks it definitley doesn't sound like a u. The international spelling of ü is ue, hence my email address and domain name Buenz. But a ü also doesn't sound like ue. It probably most sound like "ee" but with a rounder mouth. Just click on this [link](http://www.thegermanprofessor.com/how-to-pronounce-o-and-u/) if you actually want to learn how to pronounce it. This paragraph was brought to you by the very German need to correct people ([great Economist article on it](https://www.1843magazine.com/ideas/the-daily/being-german-is-no-laughing-matter)).
 
 <br>
 **Should I invest in Bitcoin/Ethereum etc.?**
 
 <br>
-Since about a million of people have asked me this, let me publicly post my answer to this question: "No idea but if you do, do not invest more than you can absolutely afford to loose."
+Since about a million of people have asked me this, let me publicly post my answer to this question: "No idea but if you do, do not invest more than you can absolutely afford to lose."
 
 <br>
 **How to create a simple yet aesthetic website**
