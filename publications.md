@@ -18,7 +18,7 @@ Authors: B. Bünz, [J. Bootle](http://www0.cs.ucl.ac.uk/staff/J.Bootle/), [D. Bo
 
 [Slides](https://scalingbitcoin.org/stanford2017/Day1/stateofcrypto.pdf)
 
-TLDR: Confidential transactions are bitcoin transactions which are publicly verifiable but do not reveal the amounts that are transfered. They rely on cryptographic commitments and so called zero-knowledge proofs of knowledge. We present a new kind of zero-knowledge proof which is much more efficient and can be used to drastically reduce the size of confidential transactions. On a more technical note bulletproofs are non-interactive zero knowledge proofs without trusted setup and
+TLDR: Confidential transactions are bitcoin transactions which are publicly verifiable but do not reveal the amounts that are transferred. They rely on cryptographic commitments and so called zero-knowledge proofs of knowledge. We present a new kind of zero-knowledge proof which is much more efficient and can be used to drastically reduce the size of confidential transactions. On a more technical note bulletproofs are non-interactive zero knowledge proofs without trusted setup and
 with only logarithmic proof size. Proving and verification cost are linear with low constant overhead.
 
 <h3>Provisions: Privacy-preserving proofs of solvency for Bitcoin exchanges</h3>
@@ -49,7 +49,7 @@ Presented at [IEEE S&B Workshop](http://prosecco.gforge.inria.fr/ieee-blockchain
 
 [Slides](https://drive.google.com/file/d/0B5PcPC6ZC_Gyb3V6NnRMZ2VZMFU/view)
 
-TLDR: We show how one can generate an unpedictable randomness beacon that is publicly verifiable using a blockchain. The beacon can be used to verify the correct execution of randomized algorithms such as lotteries. The novel property of the beacon is that it is publicly verifiable in that a verifier is convinced that the beacon was unpedictable even if she did not partake in the generation of the beacon and without any trust assumptions. We also show how we can enable interactive verification using an efficient smart contract.
+TLDR: We show how one can generate an unpredictable randomness beacon that is publicly verifiable using a blockchain. The beacon can be used to verify the correct execution of randomized algorithms such as lotteries. The novel property of the beacon is that it is publicly verifiable in that a verifier is convinced that the beacon was unpredictable even if she did not partake in the generation of the beacon and without any trust assumptions. We also show how we can enable interactive verification using an efficient smart contract.
 
 <h2>Game Theory (Combinatorial Auctions)</h2>
 <h3>A Faster Core Constraint Generation Algorithm for Combinatorial Auctions</h3>
