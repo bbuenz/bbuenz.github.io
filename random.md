@@ -16,7 +16,7 @@ Bünz which is a [small river in Switzerland](https://de.wikipedia.org/wiki/B%C3
 **Should I invest in Bitcoin/Ethereum etc.?**
 
 <br>
-Since about a million of people have asked me this, let me publicly post my answer to this question: "No idea but if you do, do not invest more than you can absolutely afford to lose."
+Since about a million people have asked me this, let me publicly post my answer to this question: "No idea but if you do, do not invest more than you can absolutely afford to lose."
 
 <br>
 **How to create a simple yet aesthetic website**
