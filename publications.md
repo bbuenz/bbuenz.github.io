@@ -9,14 +9,20 @@ comments: false
 
 <h2>Cryptography and Cryptocurrencies</h2>
 <h3>Bulletproofs: Short Proofs for
-Confidential Transactions and More (Unpublished)</h3>
+Confidential Transactions and More</h3>
 Authors: B. Bünz, [J. Bootle](http://www0.cs.ucl.ac.uk/staff/J.Bootle/), [D. Boneh](https://crypto.stanford.edu/~dabo), [Andrew Poelstra](https://www.wpsoftware.net/andrew/), [Pieter Wuille](https://blockstream.com/team/pieter-wuille/) and [Greg Maxwell](https://blockstream.com/team/greg-maxwell/)
 
-[Paper](https://eprint.iacr.org/2017/1066.pdf)
+Forthcomming at Oakland 2018
 
-[Talk at Scaling Bitcoin 2017 (last 5 minutes of the talk)](https://youtu.be/LDF8bOEqXt4?t=10570)
+[Paper](https://eprint.iacr.org/2017/1066)
 
-[Slides](https://scalingbitcoin.org/stanford2017/Day1/stateofcrypto.pdf)
+[Talk at BPASE 18](https://www.youtube.com/watch?v=gZjDKgR4dw8)
+
+[Slides](https://cyber.stanford.edu/sites/default/files/bpase18.pptx)
+
+[Java reference implementation](https://github.com/bbuenz/BulletProofLib)
+
+[libsecp256k1 implementation by Andrew Poelstra](https://github.com/apoelstra/secp256k1-mw/tree/bulletproofs)
 
 TLDR: Confidential transactions are bitcoin transactions which are publicly verifiable but do not reveal the amounts that are transferred. They rely on cryptographic commitments and so called zero-knowledge proofs of knowledge. We present a new kind of zero-knowledge proof which is much more efficient and can be used to drastically reduce the size of confidential transactions. On a more technical note bulletproofs are non-interactive zero knowledge proofs without trusted setup and
 with only logarithmic proof size. Proving and verification cost are linear with low constant overhead.
