@@ -24,7 +24,7 @@ Forthcomming at Oakland 2018
 
 [libsecp256k1 implementation by Andrew Poelstra](https://github.com/apoelstra/secp256k1-mw/tree/bulletproofs)
 
-TLDR: Confidential transactions are bitcoin transactions which are publicly verifiable but do not reveal the amounts that are transferred. They rely on cryptographic commitments and so called zero-knowledge proofs of knowledge. We present a new kind of zero-knowledge proof which is much more efficient and can be used to drastically reduce the size of confidential transactions. On a more technical note bulletproofs are non-interactive zero knowledge proofs without trusted setup and
+TLDR: Confidential transactions are Bitcoin transactions which are publicly verifiable but do not reveal the amounts that are transferred. They rely on cryptographic commitments and so called zero-knowledge proofs of knowledge. We present a new kind of zero-knowledge proof which is much more efficient and can be used to drastically reduce the size of confidential transactions. On a more technical note bulletproofs are non-interactive zero knowledge proofs without trusted setup and
 with only logarithmic proof size. Proving and verification cost are linear with low constant overhead.
 
 <h3>Provisions: Privacy-preserving proofs of solvency for Bitcoin exchanges</h3>
