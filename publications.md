@@ -12,7 +12,7 @@ comments: false
 Confidential Transactions and More</h3>
 Authors: B. Bünz, [J. Bootle](http://www0.cs.ucl.ac.uk/staff/J.Bootle/), [D. Boneh](https://crypto.stanford.edu/~dabo), [Andrew Poelstra](https://www.wpsoftware.net/andrew/), [Pieter Wuille](https://blockstream.com/team/pieter-wuille/) and [Greg Maxwell](https://blockstream.com/team/greg-maxwell/)
 
-Forthcomming at Oakland 2018
+Forthcoming at Oakland 2018
 
 [Paper](https://eprint.iacr.org/2017/1066)
 
