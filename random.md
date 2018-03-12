@@ -10,8 +10,10 @@ comments: false
 **Umlaute explained aka how to pronounce my name**
 
 <br>
-Bünz which is a [small river in Switzerland](https://de.wikipedia.org/wiki/B%C3%BCnz) according to my dad means small fat farmer. A name with so much meaning deserves to be pronounced correctly. Unfortunately, the so called umlaut "ü" is a sound that doesn't really exist in English and despite its looks it definitley doesn't sound like a u. The international spelling of ü is ue, hence my email address and domain name Buenz. But a ü also doesn't sound like ue. It probably most sound like "ee" but with a rounder mouth. Just click on this [link](http://www.thegermanprofessor.com/how-to-pronounce-o-and-u/) if you actually want to learn how to pronounce it. This paragraph was brought to you by the very German need to correct people ([great Economist article on it](https://www.1843magazine.com/ideas/the-daily/being-german-is-no-laughing-matter)).
+Bünz which is a [small river in Switzerland](https://de.wikipedia.org/wiki/B%C3%BCnz) according to my dad means small fat farmer. A name with so much meaning deserves to be pronounced correctly. Unfortunately, the so called umlaut "ü" is a sound that doesn't really exist in English and despite its looks it definitley doesn't sound like a u. The international spelling of ü is ue, hence my email address and domain name Buenz. But a ü also doesn't sound like ue. It probably most sound like "ee" but
+with a rounder mouth. Just click on this [link](http://www.thegermanprofessor.com/how-to-pronounce-o-and-u/) if you actually want to learn how to pronounce it. This paragraph was brought to you by the very German need to correct people ([great Economist article on it](https://www.1843magazine.com/ideas/the-daily/being-german-is-no-laughing-matter)).
 
+Btw if you want to write an ü it's option+u and u again on a mac or \"u in latex.
 <br>
 **Should I invest in Bitcoin/Ethereum etc.?**
 

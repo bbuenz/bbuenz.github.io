@@ -10,7 +10,13 @@ comments: false
 
 
 ### Research
-**Bulletproofs at Scaling Bitcoin 2017**
+**Bulletproofs at BPASE 2018**
+
+[Slides]({{site.url}}/presentations/bpase18.pptx)
+
+[Video](https://www.youtube.com/watch?v=gZjDKgR4dw8)
+
+**State of Cryptography (Signatures and Zero-Knowledge Proofs) at Scaling Bitcoin 2017**
 
 [Slides](https://scalingbitcoin.org/stanford2017/Day1/stateofcrypto.pdf)
 
