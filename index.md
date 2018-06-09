@@ -14,7 +14,7 @@ comments: false
 
 --I am an avid runner and train and compete for [Strava Track Club](http://stravatrackclub.com)
 
-# Publications [Google Scholar](http://scholar.google.es/citations?user={{ site.owner.google_scholar }}):
+# Publications ([Google Scholar](http://scholar.google.es/citations?user={{ site.owner.google_scholar }})):
 {: #publications }
 
 <h2>Cryptography and Cryptocurrencies</h2>
