@@ -22,12 +22,6 @@ Btw if you want to write an ü it's option+u and u again on a mac or \"u in late
 Since about a million people have asked me this, let me publicly post my answer to this question: "No idea but if you do, do not invest more than you can absolutely afford to lose."
 
 <br>
-**Do you want to advise my new cryptocurrency project that is going to disrupt the tinder for cats space?**
-
-<br>
-Probably no.
-
-<br>
 **How to create a simple yet aesthetic website**
 
 <br>
