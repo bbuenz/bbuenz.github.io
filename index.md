@@ -406,8 +406,8 @@ with Better Fairness and Incentive Properties</a>
 <div class="card-header" role="tab" id="neurosatheader">
 <h5 class="mb-0">
   <a class="collapsed" data-toggle="collapse" href="#neurosat" aria-expanded="false" aria-controls="collapseOne">
-New Core-Selecting Payment Rules
-with Better Fairness and Incentive Properties</a>
+Learning a SAT Solver from Single-Bit Supervision
+</a>
 </h5>
 </div>
 <div id="neurosat" class="collapse" role="tabpanel" aria-labelledby="neurosatheader" >
@@ -424,11 +424,15 @@ with Better Fairness and Incentive Properties</a>
 [Talk by Daniel Selsam at Microsoft Research](https://www.youtube.com/watch?v=EqvzIGY_bI4)
 </dt>
 
+<dt>
+	[Code](https://github.com/dselsam/neurosat)
+</dt>
 <dt>TLDR</dt>
 <dd>
 	We develop a neural network based solver for finding satisfying assignments to boolean formulas (SAT solver). At training time the network is given satisfying formulas and only the information of whether the formula has a solution or not. Despite this minimal supervision we are able to directly read of satisfying assignments from the activations of the network if it classifies a formula as satisfiable. Additionally we can even find contradictions if the formula is unsatisfiable. Given
 that classifying boolean formulas is an NP-complete problem this an interesting exploration into the abilities and flexibilities of neural network and also raises interesting possibilities of using neural networks in the development of state of the art SAT solvers.
 </dd>
+
 
 </dl>
 </div>
