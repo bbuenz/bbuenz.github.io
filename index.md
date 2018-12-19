@@ -39,7 +39,7 @@ comments: false
 [Paper](https://eprint.iacr.org/2018/1066)
 </dt>
 <dt markdown="1">
-[Talk at Scaling Bitcoin 18](TODO: Fill in)
+[Talk at Scaling Bitcoin 18](https://youtu.be/IMzLa9B1_3E?t=3515)
 </dt>
 <dt markdown="1">
 [Slides]({{ site.url }}/presentations/accumulators.pptx)
@@ -130,7 +130,7 @@ We briefly survey two beautiful VDF constructions by Wesolowski and Pietrzak. We
 [Paper](https://eprint.iacr.org/2018/601) (Published at CRYPTO 2018)
 </dt>
 <dt>
-<a href="">Talk by Ben Fisch at Crypto 2018</a>
+<a href="https://www.youtube.com/watch?v=_-feyaZZjEw">Talk by Ben Fisch at Crypto 2018</a>
 </dt>
 <dt>TLDR</dt>
 <dd>
