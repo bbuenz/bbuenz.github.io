@@ -10,7 +10,7 @@ disqus_shortname: benediktbnz
 # Owner/author information
 owner:
   name:           Benedikt Bünz
-  avatar:         benedikt.png
+  avatar:         benedikt2.png
   bio:            I am researcher interested in applied cryptography especially as it relates to cryptocurrencies. My work focuses on enhancing the privacy, usability and security of protocols that are somehow related to blockchains. Currently I am pursuing my PhD in computer science at Stanford and am advised by <a href="https://crypto.stanford.edu/~dabo/">Dan Boneh</a>. I am a semi professional runner and enjoy travelling especially in inconvenient vehicles.
   email:          benedikt@cs.stanford.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
@@ -68,5 +68,14 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+gems:
+    - jekyll-font-awesome-sass
+    - jekyll-bootstrap-sass
+
+bootstrap:
+  assets: true
+
+font-awesome:
+  assets: true
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

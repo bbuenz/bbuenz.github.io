@@ -3,8 +3,16 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    autoprefixer-rails (9.4.3)
+      execjs
+    bootstrap-sass (3.4.0)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     colorator (1.1.0)
+    execjs (2.7.0)
     ffi (1.9.18)
+    font-awesome-sass (5.5.0.1)
+      sassc (>= 1.11)
     forwardable-extended (2.6.0)
     jekyll (3.6.0)
       addressable (~> 2.4)
@@ -17,6 +25,12 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
+    jekyll-bootstrap-sass (0.1.0)
+      bootstrap-sass (~> 3.3)
+      jekyll (>= 2.5)
+    jekyll-font-awesome-sass (0.1.1)
+      font-awesome-sass (>= 4)
+      jekyll (>= 2.5, < 4.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-sitemap (1.1.1)
@@ -46,6 +60,7 @@ GEM
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.0)
+    rake (12.3.2)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -57,6 +72,9 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (2.0.0)
+      ffi (~> 1.9.6)
+      rake
     titlecase (0.1.1)
 
 PLATFORMS
@@ -64,9 +82,11 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-bootstrap-sass
+  jekyll-font-awesome-sass
   jekyll-sitemap
   octopress (~> 3.0.0.rc.12)
   rouge
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
