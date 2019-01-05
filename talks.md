@@ -10,11 +10,18 @@ comments: false
 
 
 ### Research
-**Bulletproofs at BPASE 2018**
+**Accumulators at Scaling Bitcoin 2018**
 
-[Slides]({{site.url}}/presentations/bpase18.pptx)
+[Slides]({{site.url}}/presentations/accumulators.pptx)
 
-[Video](https://www.youtube.com/watch?v=gZjDKgR4dw8)
+[Video](https://youtu.be/IMzLa9B1_3E?t=3515)
+
+
+**Bulletproofs**
+
+[Slides]({{site.url}}/presentations/bulletproofs.pptx)
+
+Videos: [IEEE S&P (Oakland)](https://www.youtube.com/watch?v=Adrh6BCc_Ao), [Tel Aviv Meetup](https://www.youtube.com/watch?v=gQa9OH_fY5I)
 
 **State of Cryptography (Signatures and Zero-Knowledge Proofs) at Scaling Bitcoin 2017**
 

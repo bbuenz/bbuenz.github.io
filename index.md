@@ -16,9 +16,9 @@ comments: false
 
 # Publications ([Google Scholar](http://scholar.google.es/citations?user={{ site.owner.google_scholar }})):
 {: #publications }
-
 <h2>Cryptography and Cryptocurrencies</h2>
 
+<p>
 <div id="cryptoacordion" role="tablist">
   <div class="card">
 <div class="card-header" role="tab" id="accumulatorsHeading">
@@ -36,7 +36,7 @@ comments: false
 [D. Boneh](https://crypto.stanford.edu/~dabo),  B. Bünz and [B.Fisch](https://sites.google.com/site/benafisch/)
 </dd>
 <dt markdown="1">
-[Paper](https://eprint.iacr.org/2018/1066)
+[Paper](https://eprint.iacr.org/2018/1188)
 </dt>
 <dt markdown="1">
 [Talk at Scaling Bitcoin 18](https://youtu.be/IMzLa9B1_3E?t=3515)
@@ -268,8 +268,10 @@ We show how one can generate an unpredictable randomness beacon that is publicly
 </div>
 
   </div>
-  <h2>Game Theory (Combinatorial Auctions)</h2>
+  </p>
 
+  <h2>Game Theory (Combinatorial Auctions)</h2>
+<p>
  <div id="gameacordion" role="tablist">
   <div class="card">
 <div class="card-header" role="tab" id="cabneheading">
@@ -392,16 +394,16 @@ with Better Fairness and Incentive Properties</a>
 </div>
 
 </div>
+</p>
 
 
 
 
 
 
-
-<br>
 
 <h2>Artificial Intelligence</h2>
+<p>
  <div class="card">
 <div class="card-header" role="tab" id="neurosatheader">
 <h5 class="mb-0">
@@ -418,7 +420,7 @@ Learning a SAT Solver from Single-Bit Supervision
 [D. Selsam](http://stanford.edu/~dselsam/), M. Lamm, B. Bünz, [P. Liang](https://cs.stanford.edu/~pliang/), [L. de Moura](http://leodemoura.github.io/),[D. Dill](https://profiles.stanford.edu/david-dill)
 </dd>
 <dt markdown="1">
-[Paper](https://arxiv.org/abs/1802.03685)
+[Paper](https://arxiv.org/abs/1802.03685) (To appear at ICLR 2019)
 </dt>
 <dt markdown="1">
 [Talk by Daniel Selsam at Microsoft Research](https://www.youtube.com/watch?v=EqvzIGY_bI4)
@@ -438,3 +440,4 @@ that classifying boolean formulas is an NP-complete problem this an interesting 
 </div>
 </div>
 </div>
+</p>
