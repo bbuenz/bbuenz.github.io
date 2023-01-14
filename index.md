@@ -8,11 +8,25 @@ modified: 8-7-2018
 comments: false
 ---
 # About Me:
---I am a third-year PhD student in the [Applied Crypto Group](https://crypto.stanford.edu) and am advised by [Dan Boneh](https://crypto.stanford.edu/~dabo)
 
---My main research interests are in cryptography, game theory and cryptocurrencies.
+--My main research focusses on the science of blockchains using tools from applied cryptography, game theory and consensus. I get most excited about problems that both require novel theoretical insights and also have real-world applications.
 
---I am an avid runner and train and compete for [Strava Track Club](http://stravatrackclub.com)
+--I am a cofounder and chief scientist of [Espresso Systems](https://espressosys.com).
+
+--I'll be joining NYU Courant as an Assistant Professor in Computer Science starting in the Fall of 2023.
+
+--I am an avid runner and cyclist. I train and compete for [Peninsula Distance Club](http://peninsuladistanceclub.com). My proudest accomplishments are a 3:51 1500m (equivalent to a 4:09 mile) and [bike packing across the United States](https://www.crazyguyonabike.com/doc/?o=3U8&doc_id=18076&v=ai).
+
+# Teaching
+--I co-instruct a course on Cryptocurrencies and Blockchain Technologies [CS 251](https://cs251.stanford.edu/).
+
+# Publication Highlights
+
+--[Bulletproofs](#bpHeading) is a zero-knowlede proof system that has extremly short proofs while requiring minimal trust assumptions. It is general purpose but specificially designed for confidential blockchain transactions. Bulletproofs is deployed on multiple blockchains and secures tens of thousands of private transactions on blockchains like Monero or Mobilecoin. 
+
+--[Verifiable Delay Functions](#vdfHeading) or VDFs are functions that take a long time to evaluate but are efficient to verify. VDFs have many applications and are a key building block for enviormentally friendly consensus mechanisms. They are being used in blockchain systems like Chia and Filecoin and are a part of the Ethereum 2.0 design. The [VDF alliance](vdfalliance.org) is an industry alliance focussed on building VDF hardware. 
+
+--[HyperPlonk](#hpHeading) is a SNARK that is specifically designed for proving large complex statements. It removes the requirment for FFTs which makes HyperPlonk more scalable and parallelizable. It also enables high-degree custom gates for complex circuits, such as ZKEVMs.
 
 # Publications ([Google Scholar](http://scholar.google.es/citations?user={{ site.owner.google_scholar }})):
 {: #publications }
@@ -20,29 +34,339 @@ comments: false
 
 <p>
 <div id="cryptoacordion" role="tablist">
+
   <div class="card">
-<div class="card-header" role="tab" id="accumulatorsHeading">
+<div class="card-header" role="tab" id="hpHeading">
 <h5 class="mb-0">
-  <a  data-toggle="collapse" href="#accumulators" aria-expanded="false" aria-controls="collapseOne">
-  Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains
+  <a   data-toggle="collapse" href="#hp" aria-expanded="true" aria-controls="collapseOne">
+ HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates 
   </a>
 </h5>
 </div>
-<div id="accumulators" class="collapse show" role="tabpanel" aria-labelledby="accumulatorsHeading" data-parent="#cryptoacordion">
+<div id="hp" class="collapse show" role="tabpanel" aria-labelledby="hpHeading" data-parent="#cryptoacordion">
       <div class="card-body">
 <dl>
 <dt>Authors</dt>
 <dd markdown="1">
-[D. Boneh](https://crypto.stanford.edu/~dabo),  B. Bünz and [B.Fisch](https://sites.google.com/site/benafisch/)
+Binyi Chen, B. Bünz, Dan Boneh, and Zhenfei Zhang
 </dd>
 <dt markdown="1">
-[Paper](https://eprint.iacr.org/2018/1188)
+[Paper](https://eprint.iacr.org/2022/1355.pdf) (Under submission) 
+</dt>
+<dt markdown="1">
+[Talk at ZK Summit](https://www.youtube.com/watch?v=2JDBD5oMS0w)
+</dt>
+<dt markdown="1">
+[Slides]({{ site.url }}/presentations/hp.pptx)
+</dt>
+<dt>TLDR</dt>
+<dd>
+Plonk is a recently developed proof system that has received a lot of attention due to its efficienct, low trust assumption, and customizability. We significantly improve on Plonk by building Hyperplonk. Hyperplonk removes the costlies component of Plonk (Fast Fourier Transforms). It also adds the ability to build proofs for circuits with high-degree custom gates.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="vzexeHeading">
+<h5 class="mb-0">
+  <a class="collapsed"  data-toggle="collapse" href="#vzexe" aria-expanded="false" aria-controls="collapseOne">
+  VERI-ZEXE: Decentralized Private Computation with Universal Setup
+  </a>
+</h5>
+</div>
+<div id="vzexe" class="collapse" role="tabpanel" aria-labelledby="vzexeHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd markdown="1">
+Alex Xiong, Binyi Chen, Zhenfei Zhang, B. Bünz, B. Fisch, Fernando Krell, and Philippe Camacho
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2022/802) (To appear at CCS 2023) 
+</dt>
+<dt>TLDR</dt>
+<dd>
+Traditional blockchain systems execute program state transitions on-chain, requiring each network node participating in state-machine replication to re-compute every step of the program when validating transactions. This limits both scalability and privacy. Recently, Bowe et al. introduced a primitive called decentralized private computation (DPC) and provided an instantiation called ZEXE, which allows users to execute arbitrary computations off-chain without revealing the program logic to the network. Moreover, transaction validation takes only constant time, independent of the off-chain computation. However, ZEXE required a separate trusted setup for each application, which is highly impractical. Prior attempts to remove this per-application setup incurred significant performance loss.
+We propose a new DPC instantiation VERI-ZEXE that is highly efficient and requires only a single universal setup to support an arbitrary number of applications. Our benchmark improves the state-of-the-art by 9x in transaction generation time and by 3.4x in memory usage. Along the way, we also design efficient gadgets for variable-base multi-scalar multiplication and modular arithmetic within the plonk constraint system, leading to a Plonk verifier gadget using only ∼ 21k plonk constraints.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="cszHeading">
+<h5 class="mb-0">
+  <a class="collapsed"  data-toggle="collapse" href="#csz" aria-expanded="false" aria-controls="collapseOne">
+  Schwartz-Zippel for multilinear polynomials mod N
+  </a>
+</h5>
+</div>
+<div id="csz" class="collapse" role="tabpanel" aria-labelledby="cszHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd markdown="1">
+B. Bünz, Ben Fisch
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2022/458.pdf) 
+</dt>
+<dt>TLDR</dt>
+<dd>
+The famous Schwartz-Zippel Lemma bounds the probability that a non-zero multi-variate polynomial over a field evaluates to 0 at a random point. We proof an extension of the lemma that holds modulo a composite. The lemma applies to multi-linear polynomials that are co-prime with the modulus. The lemma has applications to closing a crucial gap in the security proof of [DARK](#darks).
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+  <div class="card">
+<div class="card-header" role="tab" id="nidarHeading">
+<h5 class="mb-0">
+  <a  class="collapsed" data-toggle="collapse" href="#nidar" aria-expanded="false" aria-controls="collapseOne">
+Non-Interactive Differentially Anonymous Router
+  </a>
+</h5>
+</div>
+<div id="nidar" class="collapse" role="tabpanel" aria-labelledby="nidarHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd markdown="1">
+B. Bünz, [Y. Hu](https://huyuncong.com/),[Shin’ichiro Matsuo](https://people.cs.georgetown.edu/matsuo/), [E. Shi](http://elaineshi.com/) 
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2021/1242) (preprint) 
+</dt>
+<dt>TLDR</dt>
+<dd>
+We built upon the recent work by Shi and Wu to build a non-interactive anonymour router. A non-interactive untrusted router receives n encrypted ciphertexts and converts them to n transformed ciphertexts that can be decrypted by a set of receivers. The ciphertexts are shuffled according to a permutation that is determined in a one-time trusted setup. 
+We show that with a relaxed differentially private security notion a non-interactive router can be achieved with sub-quadratic router work.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+  <div class="card">
+<div class="card-header" role="tab" id="waccHeading">
+<h5 class="mb-0">
+  <a class="collapsed"  data-toggle="collapse" href="#wacc" aria-expanded="false" aria-controls="collapseOne">
+  Proof-Carrying Data without Succinct Arguments
+  </a>
+</h5>
+</div>
+<div id="wacc" class="collapse" role="tabpanel" aria-labelledby="waccHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd markdown="1">
+B. Bünz, [A. Chiesa](https://people.eecs.berkeley.edu/~alexch/), W. Lin, [P. Mishra](http://people.eecs.berkeley.edu/~pratyushmishra/) and [N. Spooner](http://people.eecs.berkeley.edu/~spooner/)
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2020/1618) (Published at CRYPTO 2021) 
+</dt>
+<dt markdown="1">
+[Talk at CRYPTO](https://www.youtube.com/watch?v=hdmR4wSwryQ)
+</dt>
+<dt markdown="1">
+[Slides]({{ site.url }}/presentations/wacc.pptx)
+</dt>
+<dt>TLDR</dt>
+<dd>
+Proof-carrying data (PCD) is a powerful cryptographic primitive that enables mutually distrustful
+parties to perform distributed computations that run indefinitely. Known approaches to construct PCD are
+based on succinct non-interactive arguments of knowledge (SNARKs) that have a succinct verifier or a
+succinct accumulation scheme for their proofs.
+In this paper we show how to obtain PCD without relying on SNARKs. We construct a PCD
+scheme given any non-interactive argument of knowledge (e.g., with linear-size proofs) that has a split
+accumulation scheme, which is a weak form of accumulation that we introduce.
+We additionally construct a transparent non-interactive argument of knowledge for R1CS whose
+accumulation is verifiable via a constant number of group and field operations. This leads, via the random
+oracle heuristic and our result above, to efficiency improvements for PCD. Along the way, we construct a
+split accumulation scheme for a simple polynomial commitment scheme based on Pedersen commitments.
+Our results are supported by a modular and efficient implementation.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+  <div class="card">
+<div class="card-header" role="tab" id="ippHeading">
+<h5 class="mb-0">
+  <a  class="collapsed" data-toggle="collapse" href="#ipp" aria-expanded="false" aria-controls="collapseOne">
+  Proofs for Inner Pairing Products and Applications
+  </a>
+</h5>
+</div>
+<div id="ipp" class="collapse" role="tabpanel" aria-labelledby="ippHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd markdown="1">
+B. Bünz, M. Maller, [P. Mishra](http://people.eecs.berkeley.edu/~pratyushmishra/), [Nirvan Tyagi](https://www.cs.cornell.edu/~tyagi/) and Psi Vesely
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2019/1177) (Published at ASIACRYPT 2021) 
+</dt>
+<dt markdown="1">
+[Talk at Simons Institute](https://www.youtube.com/watch?v=slm5sL3IgGo)
+</dt>
+<dt markdown="1">
+[Slides]({{ site.url }}/presentations/InnerPairingProducts.pptx)
+</dt>
+<dt markdown="1">
+[Implementation](https://github.com/arkworks-rs/ripp)
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present several proof systems (innner pairing products) for proving algebraic relations over pairing equations. These proof systems efficiently allow a prover to show that committed group elements satisfy certain bilinear (pairing) equalities. We present them as a generalization of the inner-product argument of Bulletproofs. We specialize and optimize them for several highly relevant applications. 
+Firstly, we built the first succinct polynomial commitment scheme where the evaluation prover only has <b>additive</b> overhead over evaluating the polynomial. The commitment scheme has both a transparent variant with square root verifier time and one with universal updatable setup with logarithmic verifier time. 
+As described in the <a href="#darks">DARK paper</a> polynomial commitments can be used to build general purpose SNARKS.
+Additionally, we show that the inner pairing product can be used to efficiently outsource the verification of pairing equations such as BLS signatures. A prover can give a short proof that n BLS signatures are correct and the verifier can check this proof using 2n group exponentiations but only <b>one</b> expensive pairing. This protocol can be used in a blockchain where a block contains many signatures and fast verification of the block is vital. 
+Finally, we use a variant of the inner pairing product to aggregate n pairing based SNARKs such as <a href="https://eprint.iacr.org/2016/260.pdf">Groth 16</a> into a logarithmic sized proof. Verifiying this batched proof only takes O(log(n)) time. Aggregating SNARKs could only previously be achieved through expensive recursive proof techniques and NP reductions. The Inner Pairing Product on the other hand is fully algebraic and does not rely on expensive NP reductions.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="nestaHeading">
+<h5 class="mb-0">
+  <a  class="collapsed" data-toggle="collapse" href="#nesta" aria-expanded="false" aria-controls="collapseOne">
+  Proof-Carrying Data from Accumulation Schemes
+  </a>
+</h5>
+</div>
+<div id="nesta" class="collapse" role="tabpanel" aria-labelledby="nestaHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd markdown="1">
+B. Bünz, [A. Chiesa](https://people.eecs.berkeley.edu/~alexch), [P. Mishra](https://people.eecs.berkeley.edu/~pratyushmishra) and [N. Spooner](https://people.eecs.berkeley.edu/~spooner/)
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2020/499) (Published at TCC 2020)
+</dt>
+<dt markdown="1">
+[Talk by Nick at BU](https://www.youtube.com/watch?v=UNwlBq1FQ3E)
+</dt>
+<dt markdown="1">
+[Slides]({{ site.url }}/presentations/nesta.pptx)
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present a new cryptographic tool called an accumulation scheme for proof systems (unrelated to set accumulators). An accumulation scheme for a predicate (such as proof verification) enables the accumulation of multiple invocations of the predicate and old accumulators into a new accumulator. Checking that the accumulation was done correctly is ideally much cheaper than deciding the predicate itself. In the end a decider can determine whether the final accumulator is valid
+and if so this implies that all accumulated predicate checks were valid. Together this enables delaying and combining expensive checks.
+This is particularly useful as we show that accumualtion schemes can be used to build very efficient recursive proofs. This approach was proposed by Bowe, Grigg and Hopwood in recent work called [Halo](eprint.iacr.org/2019/1021). We formalize and prove correctness of this approach. We also show that a variant of the accumulation scheme from Halo and an accumulation scheme based on bilinear maps satisfy our definitions and are secure. The resulting recursive proof constructions have
+significant new efficiency and security features.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="darksHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#darks" aria-expanded="false" aria-controls="collapseOne">
+  Transparent SNARKs from DARK Compilers
+  </a>
+</h5>
+</div>
+<div id="darks" class="collapse" role="tabpanel" aria-labelledby="darksHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd markdown="1">
+B. Bünz, [B. Fisch](https://sites.google.com/site/benafisch/) and [A. Szepieniec](https://asz.ink)
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2019/1229) (Published at Eurocrypt 2020)
+</dt>
+<dt markdown="1">
+[Talk at Simons Institute](https://www.youtube.com/watch?v=m3Cc0kuzhfg)
+</dt>
+<dt markdown="1">
+[Slides]({{ site.url }}/presentations/darks.pptx)
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present a new polynomial commitment scheme from groups of unknown order with logarithmic proof size and logarithmic verifier time. Plugged into proof systems like Sonic, Plonk or Marlin this leads to SuperSonic a SNARK with 10KB proofs and <b>without</b> trusted setup! This is the shortest practical SNARK without trusted setup today. We also provide an abstraction for proof systems like Sonic et al. called polynomial IOPs. We show that using a polynomial commitment scheme (such as DARKs) they can be compiled to SNARKs. Moreover all of the cryptographic assumptions and trusted setup assumptions (or lack thereof) are in the polynomial commitment scheme.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="flyclientHeading">
+<h5 class="mb-0">
+  <a  class="collapsed" data-toggle="collapse" href="#flyclient" aria-expanded="false" aria-controls="collapseOne">
+ Flyclient: Super-Light Clients for Cryptocurrencies
+  </a>
+</h5>
+</div>
+<div id="flyclient" class="collapse" role="tabpanel" aria-labelledby="flyclientHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd markdown="1">
+B. Bünz, [L. Kiffer](https://www.khoury.northeastern.edu/people/lucianna-kiffer/) , [L. Luu](https://loiluu.com/) and [M. Zamani](http://mahdiz.com/)
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2019/226) (Published at IEEE S&P (Oakland) 2020)
+</dt>
+<dt markdown="1">
+[Talk at Zcon](https://www.youtube.com/watch?v=vuzYwutBqjY)
+</dt>
+<dt markdown="1">
+[Slides]({{ site.url }}/presentations/flyclient.pptx)
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present Flyclient which is a protocol that lets a super-light client determine which is the correct (longest) proof of work chain. The client only needs to download a logarithmic number of block headers (say 200 instead of 1 million). The protocol is a non-interactive proof of proof of work (NiPoPoW) that shows that a chain has at least x amount of work put into it. It uses a random sampling of block headers to ensure that an adversary with limited mining power could not have produced this chain.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+ <div class="card">
+<div class="card-header" role="tab" id="accumulatorsHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#accumulators" aria-expanded="false" aria-controls="collapseOne">
+  Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains
+  </a>
+</h5>
+</div>
+<div id="accumulators" class="collapse" role="tabpanel" aria-labelledby="accumulatorsHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd markdown="1">
+[D. Boneh](https://crypto.stanford.edu/~dabo),  B. Bünz and [B. Fisch](https://sites.google.com/site/benafisch/)
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2018/1188) (Published at Crypto 2019)
 </dt>
 <dt markdown="1">
 [Talk at Scaling Bitcoin 18](https://youtu.be/IMzLa9B1_3E?t=3515)
 </dt>
 <dt markdown="1">
 [Slides]({{ site.url }}/presentations/accumulators.pptx)
+[Technical Slides]({{ site.url }}/presentations/accumulatorcryptoday.pptx)
 </dt>
 <dt>TLDR</dt>
 <dd>
@@ -53,6 +377,7 @@ Accumulators are short commitment to a set that support efficient inclusion and 
 </div>
 </div>
 </div>
+
 
 <div class="card">
 <div class="card-header" role="tab" id="zetherHeading">
@@ -70,7 +395,7 @@ Accumulators are short commitment to a set that support efficient inclusion and 
 B. Bünz, [S. Agrawal](https://shashank-agrawal.com/), [M. Zamani](http://mahdiz.com/) and [D. Boneh](https://crypto.stanford.edu/~dabo)
 </dd>
 <dt markdown="1">
-[Paper]({{ site.url }}/papers/zether.pdf)
+[Paper]({{ site.url }}/papers/zether.pdf) (Published at FC 2020)
 </dt>
 <dt markdown="1">
 [Slides]({{ site.url }}/presentations/zether.pptx)
@@ -95,9 +420,9 @@ We propose Zether, a private payment mechanism that is compatible with Ethereum 
 <div id="vdfsurvey" class="collapse" role="tabpanel" aria-labelledby="vdfsurveyHeading" data-parent="#cryptoacordion">
       <div class="card-body">
 <dl>
-<dt>Authors</dt>
+<dt>Authors (alphabetical)</dt>
 <dd markdown="1">
-[D. Boneh](https://crypto.stanford.edu/~dabo),  B. Bünz and [B.Fisch](https://sites.google.com/site/benafisch/)
+[D. Boneh](https://crypto.stanford.edu/~dabo),  B. Bünz and [B. Fisch](https://sites.google.com/site/benafisch/)
 </dd>
 <dt markdown="1">
 [Paper](https://crypto.stanford.edu/~dabo/pubs/papers/VDFsurvey.pdf)
@@ -122,9 +447,9 @@ We briefly survey two beautiful VDF constructions by Wesolowski and Pietrzak. We
 <div id="vdf" class="collapse" role="tabpanel" aria-labelledby="vdfHeading" data-parent="#cryptoacordion">
       <div class="card-body">
 <dl>
-<dt>Authors</dt>
+<dt>Authors (alphabetical)</dt>
 <dd markdown="1">
-[D. Boneh](https://crypto.stanford.edu/~dabo), [J.Bonneau](http://www.jbonneau.com/), B. Bünz and [B.Fisch](https://sites.google.com/site/benafisch/)
+[D. Boneh](https://crypto.stanford.edu/~dabo), [J.Bonneau](http://www.jbonneau.com/), B. Bünz and [B. Fisch](https://sites.google.com/site/benafisch/)
 </dd>
 <dt markdown="1">
 [Paper](https://eprint.iacr.org/2018/601) (Published at CRYPTO 2018)
@@ -144,7 +469,7 @@ We introduce verifiable delay functions (VDFs) which have 3 key properties: They
 <div class="card">
 <div class="card-header" role="tab" id="bpHeading">
 <h5 class="mb-0">
-  <a class="collapsed" data-toggle="collapse" href="#bulletproofs" aria-expanded="false" aria-controls="collapseOne">
+  <a class="collapsed" data-toggle="collapse" href="#bulletproofs" id="bpbutton"  aria-expanded="false" aria-controls="collapseOne">
 Bulletproofs: Short Proofs for
 Confidential Transactions and More
   </a>
@@ -188,7 +513,7 @@ with only logarithmic proof size. Proving and verification cost are linear with 
 <div class="card">
 <div class="card-header" role="tab" id="provisionsheading">
 <h5 class="mb-0">
-  <a class="collapsed" data-toggle="collapse" href="#provisions" aria-expanded="true" aria-controls="collapseOne">
+  <a class="collapsed" data-toggle="collapse" href="#provisions" aria-expanded="false" aria-controls="collapseOne">
 Provisions: Privacy-preserving proofs of solvency for Bitcoin exchanges
   </a>
 </h5>

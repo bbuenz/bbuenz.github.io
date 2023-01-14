@@ -10,8 +10,8 @@ disqus_shortname: benediktbnz
 # Owner/author information
 owner:
   name:           Benedikt Bünz
-  avatar:         benedikt2.png
-  bio:            I am researcher interested in applied cryptography especially as it relates to cryptocurrencies. My work focuses on enhancing the privacy, usability and security of protocols that are somehow related to blockchains. Currently I am pursuing my PhD in computer science at Stanford and am advised by <a href="https://crypto.stanford.edu/~dabo/">Dan Boneh</a>. I am a semi professional runner and enjoy travelling especially in inconvenient vehicles.
+  avatar:         benedikt3.png
+  bio:            I am researcher interested in applied cryptography, consensus and game theory, especially as it relates to cryptocurrencies. My work focuses on enhancing the privacy, usability and security of blockchain protocols. I am the cofounder and chief scientist of <a href="https://espressosys.com/">Espresso Systems</a>. I'll be joining NYU Courant as an Assistant Professor of Computer Science in the fall of 2023. Previously I was a PhD student at Stanford and was advised by <a href="https://crypto.stanford.edu/~dabo/">Dan Boneh</a>. Outside of research, I run competitevly for the peninsula distance club and enjoy travelling, especially in inconvenient vehicles.
   email:          benedikt@cs.stanford.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   linkedin: buenz
@@ -68,7 +68,7 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-gems:
+plugins:
     - jekyll-font-awesome-sass
     - jekyll-bootstrap-sass
 

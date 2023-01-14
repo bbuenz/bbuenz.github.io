@@ -16,13 +16,20 @@ with a rounder mouth. Just click on this [link](http://www.thegermanprofessor.co
 
 Btw if you want to write an ü it's option+u and u again on a mac or \"u in latex.
 
+Also Benedikt Bunz is not how you pronounce my name but I was told that I should put the name on here for SEO.
+
 <br>
 
 **Should I invest in Bitcoin/Ethereum etc.?**
 
-Since about a million people have asked me this, let me publicly post my answer to this question: "No idea but if you do, do not invest more than you can absolutely afford to lose."
+<br>
+
+Since about a million people have asked me this, let me publicly post my answer to this question: "No idea but if you do, it's probably wise to not invest more than you can afford to lose."
+
+<br>
 
 **How to create a simple yet aesthetic website**
 
 <br>
+
 Same way you write any program. You copy it from some place in the internet. I read Jordi Pont-Tueset's [blog](http://jponttuset.cat/building-an-academic-website/) on building an academic website and copied his from [here](https://github.com/jponttuset/jponttuset.github.io). Feel free to also start by cloning my website from [github](https://github.com/bbuenz/bbuenz.github.io). Feel free to adapt this theme to your site without linking back to me or including a disclaimer.

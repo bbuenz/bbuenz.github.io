@@ -7,5 +7,5 @@ modified: 8-7-2014
 comments: false
 ---
 
-You can also download my [full CV]({{site.url}}/cv/cvbuenz.pdf).
+You download my [full CV here]({{site.url}}/cv/cvbuenz.pdf).
 
