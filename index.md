@@ -15,12 +15,12 @@ comments: false
 
 --I'll be joining NYU Courant as an Assistant Professor in Computer Science starting in the Fall of 2023.
 
---I am an avid runner and cyclist. I train and compete for [Peninsula Distance Club](http://peninsuladistanceclub.com). My proudest accomplishments are a 3:51 1500m (equivalent to a 4:09 mile) and [bike packing across the United States](https://www.crazyguyonabike.com/doc/?o=3U8&doc_id=18076&v=ai).
-
 # Teaching
 --I co-instruct a course on Cryptocurrencies and Blockchain Technologies [CS 251](https://cs251.stanford.edu/).
 
 # Publication Highlights
+
+--[Ph.D. Thesis](/papers/thesis-benedikt.pdf) Improving the Privacy, Scalability, and Ecological Impact.
 
 --[Bulletproofs](#bpHeading) is a zero-knowlede proof system that has extremly short proofs while requiring minimal trust assumptions. It is general purpose but specificially designed for confidential blockchain transactions. Bulletproofs is deployed on multiple blockchains and secures tens of thousands of private transactions on blockchains like Monero or Mobilecoin. 
 
@@ -34,24 +34,52 @@ comments: false
 
 <p>
 <div id="cryptoacordion" role="tablist">
-
   <div class="card">
-<div class="card-header" role="tab" id="hpHeading">
+<div class="card-header" role="tab" id="psHeading">
 <h5 class="mb-0">
-  <a   data-toggle="collapse" href="#hp" aria-expanded="true" aria-controls="collapseOne">
- HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates 
+  <a   data-toggle="collapse" href="#protostar" aria-expanded="true" aria-controls="collapseOne">
+  ProtoStar: Generic Efficient Accumulation/Folding for Special Sound Protocols
+
   </a>
 </h5>
 </div>
-<div id="hp" class="collapse show" role="tabpanel" aria-labelledby="hpHeading" data-parent="#cryptoacordion">
+<div id="protostar" class="collapse show" role="tabpanel" aria-labelledby="psHeading" data-parent="#cryptoacordion">
       <div class="card-body">
 <dl>
 <dt>Authors</dt>
 <dd markdown="1">
-Binyi Chen, B. Bünz, Dan Boneh, and Zhenfei Zhang
+B. Bünz, Binyi Chen
 </dd>
 <dt markdown="1">
-[Paper](https://eprint.iacr.org/2022/1355.pdf) (Under submission) 
+[Paper](https://eprint.iacr.org/2023/620)  
+</dt>
+<dt>TLDR</dt>
+<dd>
+ProtoStar is an Incrementale Verifiable Computation Scheme based on the [accumulation](#wacc)/folding approach. It is constructed using a general, but highly efficient recipe for constructing accumulation schemes from any special-sound, algebraic protocol. It enables the use of high-degree gates and lookups, all while requiring only 3 elliptic curve scalar multiplication inside the recursive circuit. 
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="hpHeading">
+<h5 class="mb-0">
+  <a class="collapsed"  data-toggle="collapse" href="#hp" aria-expanded="false" aria-controls="collapseOne">
+ HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates 
+  </a>
+</h5>
+</div>
+<div id="hp" class="collapse" role="tabpanel" aria-labelledby="hpHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd markdown="1">
+Binyi Chen, B. Bünz, [Dan Boneh](https://crypto.stanford.edu/~dabo/), and [Zhenfei Zhang](https://zhenfeizhang.github.io/)
+</dd>
+<dt markdown="1">
+[Paper](https://eprint.iacr.org/2022/1355.pdf) (Published at EUROCRYPT 2023) 
 </dt>
 <dt markdown="1">
 [Talk at ZK Summit](https://www.youtube.com/watch?v=2JDBD5oMS0w)
@@ -117,8 +145,8 @@ B. Bünz, Ben Fisch
 [Paper](https://eprint.iacr.org/2022/458.pdf) 
 </dt>
 <dt>TLDR</dt>
-<dd>
-The famous Schwartz-Zippel Lemma bounds the probability that a non-zero multi-variate polynomial over a field evaluates to 0 at a random point. We proof an extension of the lemma that holds modulo a composite. The lemma applies to multi-linear polynomials that are co-prime with the modulus. The lemma has applications to closing a crucial gap in the security proof of [DARK](#darks).
+<dd markdown="1">
+The famous Schwartz-Zippel Lemma bounds the probability that a non-zero multi-variate polynomial over a field evaluates to 0 at a random point. We proof an extension of the lemma that holds modulo a composite. The lemma applies to multi-linear polynomials that are co-prime with the modulus. We then use the lemma to prove that a lattice version of [Bulletproofs](#bulletproofs) is secure and the same proof also closes a crucial gap in the security proof of [DARK](#darks).
 </dd>
 
 </dl>
