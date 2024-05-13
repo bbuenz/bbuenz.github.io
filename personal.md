@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /personal/
-title: Stuff I do outside of research
+title: Stuff I do outside of research (probably outdated but still somewhat true)
 tags: [personal]
 modified: 8-11-2017
 comments: false
@@ -17,6 +17,6 @@ I am a competitive mid-distance runner. I usually race between 800m and 5000m on
 <br />
 <h2>Traveling</h2>
 I have been very blessed with the opportunity to travel a lot. After graduating from my Masters in the summer of 2016, I decided to fulfill a lifelong dream of mine and bike across the United States. 40 days after I had left the Bay Area I reached the White House in Washington D.C. While it was hardly a life changing spiritual experience, it was certainly an adventure. If you want to know more about it you can read my way too detailed travel journal at
-[crazyguyonabike.com](https://www.crazyguyonabike.com/doc/?o=tS&doc_id=18076&v=VC). Thanks to this bike trip and the subsequent road trip home I have already visited 31 states. I am planning to get all 50 by the end of my PhD so if you know a good excuse to go to Nebraska let me know. Recently, I have become an expert on whether purchasing 30 year old RVs makes sense. The answer is no.
+[crazyguyonabike.com](https://www.crazyguyonabike.com/doc/?o=tS&doc_id=18076&v=VC). Thanks to this bike trip and the subsequent road trip home I have already visited 38 states. I am planning to get all 50 by the end of my PhD so if you know a good excuse to go to Nebraska let me know. Recently, I have become an expert on whether purchasing 30 year old RVs makes sense. The answer is no.
  <img src="{{ site.url }}/images/cyclingutah.jpg"
       alt="A biking picture">

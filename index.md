@@ -11,16 +11,18 @@ comments: false
 
 --My main research focusses on the science of blockchains using tools from applied cryptography, game theory and consensus. I get most excited about problems that both require novel theoretical insights and also have real-world applications.
 
+--I am an Assistant Professor in Computer Science at [NYU Courant](https://cs.nyu.edu)
+
 --I am a cofounder and chief scientist of [Espresso Systems](https://espressosys.com).
 
---I'll be joining NYU Courant as an Assistant Professor in Computer Science starting in the Fall of 2023.
+--You can find my CV (might be outdated) [here]({{ site.url }}/cv/cvbuenz.pdf).
 
 # Teaching
---I co-instruct a course on Cryptocurrencies and Blockchain Technologies [CS 251](https://cs251.stanford.edu/).
+--I am teaching a course on the cryptography of blockchains at NYU in the Spring 2024 semester. You can find the course material [here](teaching)
 
 # Publication Highlights
 
---[Ph.D. Thesis](/papers/thesis-benedikt.pdf) Improving the Privacy, Scalability, and Ecological Impact.
+--[Ph.D. Thesis](papers/thesis.pdf) Improving the Privacy, Scalability, and Ecological Impact. You can find my defense talk [here](presentations/DefenseTalk.pptx), and find a video of my job talk [here](https://www.youtube.com/watch?v=5U7-KuudqU4).
 
 --[Bulletproofs](#bpHeading) is a zero-knowlede proof system that has extremly short proofs while requiring minimal trust assumptions. It is general purpose but specificially designed for confidential blockchain transactions. Bulletproofs is deployed on multiple blockchains and secures tens of thousands of private transactions on blockchains like Monero or Mobilecoin. 
 
@@ -51,7 +53,7 @@ comments: false
 B. Bünz, Binyi Chen
 </dd>
 <dt markdown="1">
-[Paper](https://eprint.iacr.org/2023/620)  
+[Paper](https://eprint.iacr.org/2023/620)  (To appear at ASIACRYPT 2023)
 </dt>
 <dt>TLDR</dt>
 <dd>
@@ -130,7 +132,7 @@ We propose a new DPC instantiation VERI-ZEXE that is highly efficient and requir
 <div class="card-header" role="tab" id="cszHeading">
 <h5 class="mb-0">
   <a class="collapsed"  data-toggle="collapse" href="#csz" aria-expanded="false" aria-controls="collapseOne">
-  Schwartz-Zippel for multilinear polynomials mod N
+  Multilinear Schwartz-Zippel mod N with Applications to Succinct Arguments
   </a>
 </h5>
 </div>
@@ -142,11 +144,11 @@ We propose a new DPC instantiation VERI-ZEXE that is highly efficient and requir
 B. Bünz, Ben Fisch
 </dd>
 <dt markdown="1">
-[Paper](https://eprint.iacr.org/2022/458.pdf) 
+[Paper](https://eprint.iacr.org/2022/458.pdf) (Published at TCC 2023)
 </dt>
 <dt>TLDR</dt>
 <dd markdown="1">
-The famous Schwartz-Zippel Lemma bounds the probability that a non-zero multi-variate polynomial over a field evaluates to 0 at a random point. We proof an extension of the lemma that holds modulo a composite. The lemma applies to multi-linear polynomials that are co-prime with the modulus. We then use the lemma to prove that a lattice version of [Bulletproofs](#bulletproofs) is secure and the same proof also closes a crucial gap in the security proof of [DARK](#darks).
+The famous Schwartz-Zippel Lemma bounds the probability that a non-zero multi-variate polynomial over a field evaluates to 0 at a random point. We prove an extension of the lemma that holds modulo a composite. The lemma applies to multi-linear polynomials that are co-prime with the modulus. We then use the lemma to prove that a lattice version of [Bulletproofs](#bulletproofs) is secure and the same proof also closes a crucial gap in the security proof of [DARK](#darks).
 </dd>
 
 </dl>

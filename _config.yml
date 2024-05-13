@@ -1,7 +1,7 @@
 title:            Benedikt Bünz's site
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              "https://crypto.stanford.edu/~buenz"
+url:              "https://cs.nyu.edu/~bb"
 #url:               //bbu.nz
 #http://localhost:5000
 #https://jponttuset.github.io
@@ -11,8 +11,9 @@ disqus_shortname: benediktbnz
 owner:
   name:           Benedikt Bünz
   avatar:         benedikt3.png
-  bio:            I am researcher interested in applied cryptography, consensus and game theory, especially as it relates to cryptocurrencies. My work focuses on enhancing the privacy, usability and security of blockchain protocols. I am the cofounder and chief scientist of <a href="https://espressosys.com/">Espresso Systems</a>. I'll be joining NYU Courant as an Assistant Professor of Computer Science in the fall of 2023. Previously I was a PhD student at Stanford and was advised by <a href="https://crypto.stanford.edu/~dabo/">Dan Boneh</a>. Outside of research, I run competitevly for the peninsula distance club and enjoy travelling, especially in inconvenient vehicles.
-  email:          benedikt@cs.stanford.edu
+  bio:            Benedikt Bünz is an Assistant Professor of Computer Science at NYU Courant. He also cofounded and am the chief scientist of <a href="https://espressosys.com/">Espresso Systems</a>. He researches applied cryptography, consensus and game theory, especially as it relates to cryptocurrencies. His work focuses on enhancing the privacy, usability and security of blockchain protocols.  
+  email:          bb@nyu.edu
+  email2:         benedikt@espressosys.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   linkedin: buenz
   google_scholar: Hj82r7MAAAAJ
@@ -29,8 +30,8 @@ google_verify:
 links:
   - title: Publications
     url: /#publications
-  - title: Curriculum
-    url: /cv/
+  - title: Teaching
+    url: /teaching/
   - title: Talks
     url: /talks/
   - title: Personal
